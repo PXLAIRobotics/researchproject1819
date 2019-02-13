@@ -1,0 +1,444 @@
+#VRML_SIM R2019a utf8
+WorldInfo {
+  info [
+    "World generated using the Open Street Map to Webots importer"
+    "Author: David Mansolino <david.mansolino@epfl.ch>"
+  ]
+  northDirection 0 0 1
+  gpsCoordinateSystem "WGS84"
+  gpsReference 0.0006 -0.01 0
+  lineScale 11
+}
+Viewpoint {
+  orientation -0.00462129626345716 0.9242515505182328 0.3817560935800344 3.1377824119657824
+  position 711.7527374968704 48.643652941050455 -36.188080836861744
+  near 3
+}
+Pioneer3atscale {
+  translation 709 0.11 13
+  controller "ros"
+  controllerArgs "--ROS_MASTER_URI=http://user:00000/"
+  extensionSlot [
+    Camera {
+      translation 0 0.2 -0.2
+      width 200
+      height 130
+    }
+  ]
+  scale 5 5 5
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  translation 0 -0.02 0
+  size 3343 199
+  appearance SandyGround {
+    textureTransform TextureTransform {
+      scale 0.05 0.05
+    }
+  }
+  texture [
+    "textures/grass.jpg"
+  ]
+}
+Crossroad {
+  translation 754.815578 0.01 46.913354
+  name "crossroad(1)"
+  id "-102358"
+  shape [
+    -3.448088 0 -4.044835
+    -3.966066 0 -3.538406
+    -4.033562 0 3.461268
+    -0.033748 0 3.499837
+    3e-06 0 3.5
+    4.000003 0 3.499996
+    3.999997 0 -3.500004
+    3.551329 0 -3.954499
+    -3.448088 0 -4.044835
+  ]
+  connectedRoadIDs [
+    "-102245_2"
+    "-102245_3"
+    "-102389_1"
+  ]
+}
+Crossroad {
+  translation 786.744853 0.01 17.979844
+  name "crossroad(2)"
+  id "-102364"
+  shape [
+    3.499998 0 -4.000002
+    -3.500002 0 -3.999998
+    -4.000002 0 -3.499997
+    -3.999998 0 3.500003
+    -3.499997 0 4.000003
+    3.500003 0 3.999997
+    3.499998 0 -4.000002
+  ]
+  connectedRoadIDs [
+    "-102245_1"
+    "-102245_2"
+    "-102245_3"
+  ]
+}
+Crossroad {
+  translation 736.143434 0.01 -22.267343
+  name "crossroad(3)"
+  id "-102367"
+  shape []
+  connectedRoadIDs [
+    "-102245_1"
+    "-102369_1"
+  ]
+}
+Crossroad {
+  translation 681.994345 0.01 47.28437
+  name "crossroad(4)"
+  id "-102368"
+  shape []
+  connectedRoadIDs [
+    "-102369_2"
+    "-102383_1"
+  ]
+}
+Crossroad {
+  translation 654.172844 0.01 -22.82373
+  name "crossroad(5)"
+  id "-102382"
+  shape [
+    3.999999 0 -3.500001
+    -1e-06 0 -3.5
+    -0.014367 0 -3.499971
+    -4.014333 0 -3.483551
+    -3.985599 0 3.51639
+    -3.392834 0 4.091293
+    3.604711 0 3.905901
+    4.000001 0 3.499999
+    3.999999 0 -3.500001
+  ]
+  connectedRoadIDs [
+    "-102383_1"
+    "-102383_2"
+    "-102389_2"
+  ]
+}
+Crossroad {
+  translation 708.508727 0.01 13.157656
+  name "crossroad(6)"
+  id "-102494"
+  shape [
+    1.545896 0 -7.67204
+    -1.825412 0 -7.610379
+    -7.183551 0 -3.105898
+    -7.058551 0 3.380363
+    -1.53084 0 7.675059
+    1.670071 0 7.64597
+    7.118819 0 3.251526
+    7.06517 0 -3.366507
+    1.545896 0 -7.67204
+  ]
+  connectedRoadIDs [
+    "-102369_1"
+    "-102369_2"
+    "-102389_1"
+    "-102389_2"
+  ]
+}
+Road {
+  translation 754.867199 0.01 42.913687
+  name "road(1)"
+  id "-102245_2"
+  startJunction "-102358"
+  endJunction "-102364"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    0.283088 0 -21.934071
+    1.062124 0 -24.183884
+    3.321803 0 -24.933823
+    27.877654 0 -24.93384
+  ]
+  startingAngle [
+    -3.128687
+  ]
+  endingAngle [
+    -1.570797
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 736.143434 0.01 -22.267343
+  name "road(2)"
+  id "-102369_1"
+  startJunction "-102367"
+  endJunction "-102494"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -23.329173 0 29.905725
+  ]
+  startingAngle [
+    1.5598
+  ]
+  endingAngle [
+    0.662483
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 704.214032 0.01 18.685367
+  name "road(3)"
+  id "-102369_2"
+  startJunction "-102494"
+  endJunction "-102368"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -22.219687 0 28.599003
+  ]
+  startingAngle [
+    0.66052
+  ]
+  endingAngle [
+    0.66052
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 750.815764 0.01 46.874785
+  name "road(4)"
+  id "-102389_1"
+  startJunction "-102358"
+  endJunction "-102494"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -15.232452 0 -0.146881
+    -37.912592 0 -28.268381
+  ]
+  startingAngle [
+    1.580439
+  ]
+  endingAngle [
+    2.462898
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 704.004246 0.01 7.799518
+  name "road(5)"
+  id "-102389_2"
+  startJunction "-102494"
+  endJunction "-102382"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -25.744368 0 -30.623256
+    -45.831401 0 -30.623249
+  ]
+  startingAngle [
+    2.442534
+  ]
+  endingAngle [
+    1.570796
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 681.994345 0.01 47.28437
+  name "road(6)"
+  id "-102383_1"
+  startJunction "-102368"
+  endJunction "-102382"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -22.954544 0 0.328087
+    -25.224178 0 -0.389494
+    -26.033691 0 -2.627987
+    -27.715562 0 -66.109502
+  ]
+  startingAngle [
+    0.66052
+  ]
+  endingAngle [
+    3.115105
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 650.172878 0.01 -22.80731
+  name "road(7)"
+  id "-102383_2"
+  startJunction "-102382"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -41.186575 0 0.169065
+  ]
+  startingAngle [
+    1.566691
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 736.143434 0.01 -22.267343
+  name "road(8)"
+  id "-102245_1"
+  startJunction "-102367"
+  endJunction "-102364"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    47.601579 0 -0.523447
+    49.851444 0 0.201813
+    50.6014 0 2.443566
+    50.601417 0 36.247187
+  ]
+  startingAngle [
+    -1.581792
+  ]
+  endingAngle [
+    -1e-06
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 786.744856 0.01 21.979844
+  name "road(9)"
+  id "-102245_3"
+  startJunction "-102364"
+  endJunction "-102358"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    1.8e-05 0 21.93348
+    -0.74998 0 24.183481
+    -2.99998 0 24.933483
+    -27.929278 0 24.933506
+  ]
+  startingAngle [
+    -1e-06
+  ]
+  endingAngle [
+    1.570795
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
