@@ -18,10 +18,10 @@ Folder 'webots' contains some default environments to test your project. New env
 7. Later on in the project, we will host some workshops to do more complex actions in WeBots. (create own world, own robots, ...)
 
 ## Useful Links ##
-ROS: [http://www.ros.org/](http://www.ros.org/) 
-WeBots robot simulator: [https://cyberbotics.com/](https://cyberbotics.com/) 
+ROS: [http://www.ros.org/](http://www.ros.org/)  
+WeBots robot simulator: [https://cyberbotics.com/](https://cyberbotics.com/)  
 
-WeBots tutorials: [https://cyberbotics.com/doc/guide/](https://cyberbotics.com/doc/guide/) 
+WeBots tutorials: [https://cyberbotics.com/doc/guide/](https://cyberbotics.com/doc/guide/)  
 ROS + WeBots: [https://cyberbotics.com/doc/guide/tutorial-7-using-ros](https://cyberbotics.com/doc/guide/tutorial-7-using-ros) 
 
 OpenCV: [https://opencv.org/](https://opencv.org/) 
