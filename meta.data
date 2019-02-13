@@ -1,0 +1,6 @@
+'demo' world metadata
+
+height: ..m
+width: ..m
+pos: ..,..
+dir: .. (radians/degree)
