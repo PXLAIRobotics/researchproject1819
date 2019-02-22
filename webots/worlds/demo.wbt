@@ -17,7 +17,7 @@ Viewpoint {
 Pioneer3atscale {
   translation 709 0.11 13
   controller "ros"
-  controllerArgs "--ROS_MASTER_URI=http://user:00000/"
+  controllerArgs "--ROS_MASTER_URI=http://sam:11311/"
   extensionSlot [
     Camera {
       translation 0 0.2 -0.2
