@@ -5,7 +5,7 @@ In this repository, you'll find all the information to get started with the Rese
 Folder 'webots' contains some default environments to test your project. New environments will be added soon.
 
 ## Quick Guide: Combining ROS & WeBots ##
-0. Install Ubuntu (we use 18.04 LTS) in dual boot or in VM
+0. Install Ubuntu (we use 18.04 LTS) in dual boot (recommended) or in VM
 1. Install ROS (Melodic)
 2. Install WeBots
 3. Create WeBots world (or load a world that is provided in this repository)
