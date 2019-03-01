@@ -33,6 +33,7 @@ We will be using the model that has been described during the Software Analysis 
 For this reason, we encourage the teams to use **features** as more detailed clarifications of user stories to define specific behaviors of the bot.
 
 So, to give a brief overview:
+
 EPIC
 Task = related to project mgmt, not part of the product
 Bug = issues found during implementation & testing
@@ -41,3 +42,5 @@ User Story = High-level description of desired behavior from user perspective
 	Feature = More detailed clarifications of a user story to define specific behaviors of the bot
 	
 Tasks, bugs & features can futher be subdivided in sub-tasks for individual assignment and time tracking.
+
+![Project Management](IMG_20190301_145715.jpg)
