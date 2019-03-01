@@ -25,3 +25,19 @@ WeBots tutorials: [https://cyberbotics.com/doc/guide/](https://cyberbotics.com/d
 ROS + WeBots: [https://cyberbotics.com/doc/guide/tutorial-7-using-ros](https://cyberbotics.com/doc/guide/tutorial-7-using-ros) 
 
 OpenCV: [https://opencv.org/](https://opencv.org/) 
+
+## Project Management ##
+Concerning user stories & project management in JIRA:  
+We will be using the model that has been described during the Software Analysis course. Considering we aren't working in a user-centered context, user stories are not sufficient to describe the desired behavior of the bot.
+
+For this reason, we encourage the teams to use **features** as more detailed clarifications of user stories to define specific behaviors of the bot.
+
+So, to give a brief overview:
+EPIC
+Task = related to project mgmt, not part of the product
+Bug = issues found during implementation & testing
+Meeting = meeting
+User Story = High-level description of desired behavior from user perspective
+	Feature = More detailed clarifications of a user story to define specific behaviors of the bot
+	
+Tasks, bugs & features can futher be subdivided in sub-tasks for individual assignment and time tracking.
