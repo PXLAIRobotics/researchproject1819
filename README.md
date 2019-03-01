@@ -39,7 +39,7 @@ EPIC
 - Bug = issues found during implementation & testing
 - Meeting = meeting
 - User Story = High-level description of desired behavior from user perspective
-	Feature = More detailed clarifications of a user story to define specific behaviors of the bot
+	- Feature = More detailed clarifications of a user story to define specific behaviors of the bot
 		=> check Software Analysis course for the schematic of a feature.
 	
 - Tasks, bugs & features can futher be subdivided in sub-tasks for individual assignment and time tracking.
