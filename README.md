@@ -3,6 +3,7 @@ In this repository, you'll find all the information to get started with the Rese
 
 ## Contents ##
 Folder 'webots' contains some default environments to test your project. New environments will be added soon.
+A folder 'lights' was added with a sample image of a red and a green light.
 
 ## Quick Guide: Combining ROS & WeBots ##
 0. Install Ubuntu (we use 18.04 LTS) in dual boot (recommended) or in VM
