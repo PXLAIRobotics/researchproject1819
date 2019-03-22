@@ -3,6 +3,7 @@ In this repository, you'll find all the information to get started with the Rese
 
 ## Contents ##
 Folder 'webots' contains some default environments to test your project. New environments will be added soon.
+A folder 'lights' was added with a sample image of a red and a green light.
 
 ## Quick Guide: Combining ROS & WeBots ##
 0. Install Ubuntu (we use 18.04 LTS) in dual boot (recommended) or in VM
@@ -25,3 +26,23 @@ WeBots tutorials: [https://cyberbotics.com/doc/guide/](https://cyberbotics.com/d
 ROS + WeBots: [https://cyberbotics.com/doc/guide/tutorial-7-using-ros](https://cyberbotics.com/doc/guide/tutorial-7-using-ros) 
 
 OpenCV: [https://opencv.org/](https://opencv.org/) 
+
+## Project Management ##
+Concerning user stories & project management in JIRA:  
+We will be using the model that has been described during the Software Analysis course. Considering we aren't working in a user-centered context, user stories are not sufficient to describe the desired behavior of the bot.
+
+For this reason, we encourage the teams to use **features** as more detailed clarifications of user stories to define specific behaviors of the bot.
+
+So, to give a brief overview:
+
+EPIC
+- Task = related to project mgmt, not part of the product
+- Bug = issues found during implementation & testing
+- Meeting = meeting
+- User Story = High-level description of desired behavior from user perspective
+	- Feature = More detailed clarifications of a user story to define specific behaviors of the bot
+		=> check Software Analysis course for the schematic of a feature.
+	
+- Tasks, bugs & features can futher be subdivided in sub-tasks for individual assignment and time tracking.
+
+![Project Management](IMG_20190301_145715.jpg)
