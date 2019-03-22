@@ -10,19 +10,20 @@ WorldInfo {
   lineScale 11
 }
 Viewpoint {
-  orientation -0.008439071548856604 0.9242420369677297 0.38171381842046953 3.11929745363387
-  position 711.381188823805 29.977032878584673 -6.878115351016746
+  orientation -0.012201445898941317 0.9995988573461602 0.025558738431820154 2.514967104864639
+  position 726.2198117270381 2.8141842118104634 -2.809150791321398
   near 3
 }
 Pioneer3atscale {
-  translation 709 0.11 13
+  translation 713.6349999101813 0.3099999999999999 21.028055544938564
+  rotation 0 1 0 3.926990805
   controller "ros"
   controllerArgs "--ROS_MASTER_URI=http://sam:11311/"
   extensionSlot [
     Camera {
       translation 0 0.2 -0.2
-      width 200
-      height 130
+      width 1920
+      height 1080
     }
   ]
   scale 5 5 5
@@ -42,11 +43,6 @@ Floor {
   texture [
     "textures/grass.jpg"
   ]
-}
-GenericTrafficLight {
-  translation 709 0 24.229999999999997
-  greenTime 3
-  redTime 2
 }
 Crossroad {
   translation 754.815578 0.01 46.913354
@@ -446,4 +442,12 @@ Road {
     "textures/road_line_dashed.png"
   ]
   splineSubdivision 0
+}
+RPTrafficLight {
+  translation 727.3695249972277 -4.1 43.678270676077126
+  rotation 0 1 0 0.5235987740000014
+  greenTime 3
+  redTime 2
+  state "green"
+  scale 3 3 3
 }
