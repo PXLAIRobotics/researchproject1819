@@ -1,0 +1,1653 @@
+#VRML_SIM R2019a utf8
+WorldInfo {
+  info [
+    "World generated using the Open Street Map to Webots importer"
+    "Author: David Mansolino <david.mansolino@epfl.ch>"
+  ]
+  northDirection 0 0 1
+  gpsCoordinateSystem "WGS84"
+  gpsReference 0.0006 -0.01 0
+  lineScale 11
+}
+Viewpoint {
+  orientation -0.08981444660359354 0.9722880862238087 0.21584541359161086 2.4916985566039065
+  position 872.3842383658211 64.09573899487053 -130.9288615465838
+  near 3
+}
+RPOrderSign {
+  translation 754.0645707518008 0 28.499475267664764
+  rotation 0 1 0 3.926990766640826
+}
+RPOrderSign {
+  translation 738.4799398184424 0 -18.919106211189526
+  rotation 0 1 0 0.5235986972816519
+  name "order sign(1)"
+}
+RPOrderSign {
+  translation 767.5573481280526 0 -54.8538675573542
+  rotation 0 1 0 4.450589502281652
+  name "order sign(2)"
+}
+TexturedBackgroundLight {
+}
+Pioneer3atscale {
+  translation 794.7572668608112 0.23122583698489468 -13.319993456648417
+  rotation 0.011604371529500345 -0.9998651896469117 -0.01161641484067682 -1.5709310609908806
+  controller "ros"
+  controllerArgs "--ROS_MASTER_URI=http://user:port/"
+  extensionSlot [
+    Camera {
+      translation 0 0.2 -0.2
+      width 320
+      height 180
+    }
+  ]
+  scale 5 5 5
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  texture "noon_cloudy_empty"
+}
+Floor {
+  translation 775 -0.02 0
+  size 200 200
+  tileSize 200 200
+  appearance SandyGround {
+    colorOverride 0.8 0.8 0.8
+  }
+  texture [
+    "textures/grass.jpg"
+  ]
+}
+Solid {
+  translation 723.6 0 19.099999999999977
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(6)"
+}
+Solid {
+  translation 723.2399999999998 0 1.6799999999999782
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(9)"
+}
+Solid {
+  translation 723.7399999999999 0 -26.600000000000026
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(11)"
+}
+Solid {
+  translation 739.7499999999999 0 -27.050000000000026
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(12)"
+}
+Solid {
+  translation 772.5200000000004 0 -26.420000000000027
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(15)"
+}
+Solid {
+  translation 773.3300000000007 0 -13.380000000000033
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(16)"
+}
+Solid {
+  translation 794.760000000001 0 -13.380000000000033
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(17)"
+}
+Solid {
+  translation 802.7000000000013 0 -35.69000000000003
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(19)"
+}
+Solid {
+  translation 813.2200000000014 0 -23.02000000000004
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(20)"
+}
+Solid {
+  translation 831.2800000000015 0 -22.74000000000004
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(21)"
+}
+Solid {
+  translation 840.3400000000013 0 -35.530000000000044
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(22)"
+}
+Solid {
+  translation 829.460000000001 0 -49.51000000000004
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(23)"
+}
+Solid {
+  translation 816.7500000000008 0 -49.34000000000004
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(24)"
+}
+Solid {
+  translation 789.2300000000008 0 -49.960000000000036
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(25)"
+}
+Solid {
+  translation 773.1700000000006 0 -50.58000000000004
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(26)"
+}
+Solid {
+  translation 772.3800000000007 0 -40.07000000000004
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(27)"
+}
+Solid {
+  translation 744.5400000000006 0 -40.44000000000004
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(28)"
+}
+Solid {
+  translation 743.6700000000004 0 -50.95000000000004
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(29)"
+}
+Solid {
+  translation 754.8499999999999 0 -50.95000000000004
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(33)"
+}
+Solid {
+  translation 723.1800000000002 0 -12.910000000000046
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(34)"
+}
+Solid {
+  translation 744.0200000000001 0 -60.520000000000024
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(30)"
+}
+Solid {
+  translation 771.6800000000004 0 -60.520000000000024
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(31)"
+}
+Solid {
+  translation 748.3799999999997 0 -13.220000000000027
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(13)"
+}
+Solid {
+  translation 739.7299999999997 0 -5.080000000000028
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(14)"
+}
+Solid {
+  translation 710.6699999999997 0 12.819999999999972
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(10)"
+}
+Solid {
+  translation 739.1399999999995 0 19.099999999999977
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(7)"
+}
+Solid {
+  translation 772.3799999999999 0 18.799999999999976
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(8)"
+}
+Solid {
+  translation 785.6900000000004 0 16.549999999999976
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(18)"
+}
+RPTrafficLight {
+  translation 746.5257908675158 -4.019999999999998 -23.389975769276866
+  rotation 0 -0.9999999999999999 0 2.6179939083591734
+  name "generic traffic light(9)"
+  state "green"
+  scale 3 3 3
+}
+RPTrafficLight {
+  translation 808.0700028270219 -4.019999999999998 -35.33999977257801
+  rotation 0 -0.9999999999999999 0 2.6179939083591734
+  name "generic traffic light(8)"
+  greenTime 70
+  redTime 17
+  state "green"
+  scale 3 3 3
+}
+RPTrafficLight {
+  translation 777.4300033788193 -4.019999999999998 -54.52000065407178
+  rotation 0 -1 0 1.570796360359173
+  name "generic traffic light(6)"
+  greenTime 55
+  redTime 12
+  state "green"
+  scale 3 3 3
+}
+RPTrafficLight {
+  translation 769.0100031455004 -4.019999999999998 -46.41000089631
+  rotation 0 1 0 1.5707962836408262
+  name "generic traffic light(7)"
+  greenTime 51
+  redTime 8
+  state "green"
+  scale 3 3 3
+}
+RPTrafficLight {
+  translation 768.7100021318107 -4.019999999999998 -9.510000904940817
+  rotation 0 1 0 1.5707962836408262
+  name "generic traffic light(5)"
+  state "green"
+  scale 3 3 3
+}
+RPTrafficLight {
+  translation 727.29000024008 -4.019999999999998 10.579999169284147
+  rotation 0 -1 0 3.1415926823591733
+  name "generic traffic light(3)"
+  greenTime 50
+  redTime 12
+  state "green"
+  scale 3 3 3
+}
+RPTrafficLight {
+  translation 719.2300019022697 -4.019999999999998 -3.6800023216272377
+  rotation 0 -1 0 4.2146848510894035e-08
+  name "generic traffic light(4)"
+  greenTime 65
+  redTime 9
+  state "green"
+  scale 3 3 3
+}
+RPTrafficLight {
+  translation 753.5729367881016 -3.7999999999999994 41.67193962526857
+  rotation 0 0.9999999999999999 0 2.0943950576408263
+  name "generic traffic light(2)"
+  greenTime 54
+  redTime 10
+  state "green"
+  scale 3 3 3
+}
+RPTrafficLight {
+  translation 777.5100002505811 -4.019999999999998 -17.41999960427717
+  rotation 0 0.9999999999999999 0 4.712388966
+  greenTime 49
+  redTime 11
+  state "green"
+  scale 3 3 3
+}
+RPTrafficLight {
+  translation 797.1471047212385 -4.019999999999998 -5.167344099954622
+  rotation 0 -1 0 3.665191456359173
+  name "generic traffic light(1)"
+  greenTime 58
+  redTime 14
+  state "green"
+  scale 3 3 3
+}
+Crossroad {
+  translation 773.294444 0.01 -13.463396
+  name "crossroad(1)"
+  id "-102567"
+  shape [
+    -3.402755 0 -4.083046
+    -3.9981 0 -3.50217
+    -4.001899 0 3.497829
+    -3.515498 0 3.986386
+    3.484449 0 4.013554
+    3.994868 0 3.505856
+    4.005123 0 -3.494136
+    3.595219 0 -3.914639
+    -3.402755 0 -4.083046
+  ]
+  connectedRoadIDs [
+    "-105369_1"
+    "-105369_3"
+    "-105371_1"
+    "-105371_2"
+  ]
+}
+Crossroad {
+  translation 748.308206 0.01 -13.476956
+  name "crossroad(2)"
+  id "-102569"
+  shape [
+    0.748298 0 -5.262134
+    -5.116235 0 -1.440189
+    -5.314707 0 0.062336
+    -0.643708 0 5.275949
+    3.9981 0 3.50217
+    4.001899 0 -3.497829
+    0.748298 0 -5.262134
+  ]
+  connectedRoadIDs [
+    "-105369_1"
+    "-105369_2"
+    "-105370_4"
+  ]
+}
+Crossroad {
+  translation 739.284802 0.01 19.500186
+  name "crossroad(3)"
+  id "-102573"
+  shape [
+    -3.445635 0 -4.046925
+    -3.925156 0 -3.583734
+    -4.073058 0 3.414704
+    -0.073951 0 3.499219
+    -0.034936 0 3.499826
+    3.964865 0 3.539753
+    4.034737 0 -3.459899
+    3.553726 0 -3.952345
+    -3.445635 0 -4.046925
+  ]
+  connectedRoadIDs [
+    "-105369_2"
+    "-105369_3"
+    "-105370_1"
+  ]
+}
+Crossroad {
+  translation 723.280994 0.01 19.16197
+  name "crossroad(4)"
+  id "-102577"
+  shape [
+    3.494223 0 -4.005047
+    -3.505769 0 -3.994945
+    -3.499996 0 0.005051
+    -3.499296 0 0.070174
+    -3.419098 0 4.06937
+    3.579495 0 3.929022
+    3.925156 0 3.583734
+    4.073058 0 -3.414704
+    3.494223 0 -4.005047
+  ]
+  connectedRoadIDs [
+    "-105370_1"
+    "-105370_2"
+    "-105371_3"
+  ]
+}
+Crossroad {
+  translation 739.05172 0.01 -27.680447
+  name "crossroad(5)"
+  id "-104543"
+  shape [
+    -3.959783 0 -3.545437
+    -4.039696 0 3.454107
+    0.889679 0 7.775505
+    6.754211 0 3.95356
+    6.962628 0 3.573768
+    7.036591 0 -3.425841
+    -3.959783 0 -3.545437
+  ]
+  connectedRoadIDs [
+    "-105370_3"
+    "-105370_4"
+    "-105371_1"
+  ]
+}
+Crossroad {
+  translation 795.329786 0.01 -13.431114
+  name "crossroad(6)"
+  id "-104562"
+  shape [
+    -2.065211 0 -4.897438
+    -6.994865 0 -3.510252
+    -7.00512 0 3.489741
+    -5.506939 0 5.560902
+    1.144558 0 7.742092
+    4.579955 0 -2.697038
+    -2.065211 0 -4.897438
+  ]
+  connectedRoadIDs [
+    "-105371_2"
+    "-105371_4"
+    "-105432"
+  ]
+}
+Crossroad {
+  translation 753.611614 0.01 35.154553
+  name "crossroad(7)"
+  id "-104575"
+  shape [
+    -0.361178 0 -5.302787
+    -5.303804 0 -0.345928
+    -5.307733 0 0.279236
+    -0.427802 0 5.297828
+    0.465632 0 5.294638
+    5.309592 0 0.241316
+    -0.361178 0 -5.302787
+  ]
+  connectedRoadIDs [
+    "-105371_3"
+    "-105371_4"
+    "-105372"
+  ]
+}
+Crossroad {
+  translation 723.253992 0.01 0.452882
+  name "crossroad(8)"
+  id "-104586"
+  shape [
+    3.494224 0 -4.005046
+    -3.505768 0 -3.994945
+    -9.731974 0 4.187922
+    -4.996224 0 9.342791
+    -3.485564 0 10.005041
+    3.514429 0 9.994938
+    3.494224 0 -4.005046
+  ]
+  connectedRoadIDs [
+    "-105370_2"
+    "-105370_3"
+    "-105372"
+  ]
+}
+Crossroad {
+  translation 802.742883 0.01 -35.81852
+  name "crossroad(9)"
+  id "-104628"
+  shape [
+    -0.183101 0 -5.311918
+    -5.289215 0 -0.523641
+    -4.579955 0 2.697038
+    2.065211 0 4.897438
+    5.30651 0 -0.301575
+    0.405497 0 -5.299582
+    -0.183101 0 -5.311918
+  ]
+  connectedRoadIDs [
+    "-105373_1"
+    "-105432"
+    "-105444"
+  ]
+}
+Crossroad {
+  translation 773.008774 0.01 -50.547556
+  name "crossroad(10)"
+  id "-104637"
+  shape [
+    -3.435872 0 -4.055216
+    -3.962566 0 -3.542325
+    -4.036982 0 3.457279
+    -3.39314 0 4.091039
+    3.604419 0 3.90617
+    3.927027 0 3.581684
+    4.071275 0 -3.416829
+    3.56324 0 -3.94377
+    -3.435872 0 -4.055216
+  ]
+  connectedRoadIDs [
+    "-105373_1"
+    "-105373_2"
+    "-105373_3"
+    "-105374"
+  ]
+}
+Crossroad {
+  translation 743.6562 0.01 -50.758712
+  name "crossroad(11)"
+  id "-105211"
+  shape [
+    3.36371 0 -4.115271
+    -3.632342 0 -3.880218
+    -3.49775 0 4.001967
+    3.502248 0 3.998031
+    3.996807 0 3.503646
+    4.00319 0 -3.496351
+    3.36371 0 -4.115271
+  ]
+  connectedRoadIDs [
+    "-105373_2"
+    "-105373_3"
+    "-105374"
+  ]
+}
+Road {
+  translation 750.743847 0.01 37.943085
+  name "road(1)"
+  id "-105372"
+  startJunction "-104575"
+  endJunction "-104586"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -6.910285 0 6.719357
+    -36.622352 0 6.387522
+    -38.885065 0 5.612505
+    -39.673578 0 3.35446
+    -40.173935 0 -25.837409
+    -34.853954 0 -30.724847
+  ]
+  startingAngle [
+    0.799406
+  ]
+  endingAngle [
+    -2.313844
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 769.009 0.01 -50.590079
+  name "road(2)"
+  id "-105374"
+  startJunction "-104637"
+  endJunction "-105211"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -14.971402 0 -0.159166
+    -21.352801 0 -0.164985
+  ]
+  startingAngle [
+    1.581427
+  ]
+  endingAngle [
+    1.571708
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 796.587158 0.01 -17.228352
+  name "road(3)"
+  id "-105432"
+  startJunction "-104562"
+  endJunction "-104628"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    4.898353 0 -14.79293
+  ]
+  startingAngle [
+    -2.821828
+  ]
+  endingAngle [
+    -2.821828
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 805.598887 0.01 -38.619099
+  name "road(4)"
+  id "-105444"
+  startJunction "-104628"
+  endJunction "-104628"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    11.057349 0 -10.842764
+    24.500009 0 -10.842766
+    34.127171 0 0.718122
+    35.100321 0 3.034268
+    34.18029 0 5.372023
+    25.706408 0 16.033759
+    7.265836 0 15.862578
+    -0.019552 0 6.460954
+  ]
+  startingAngle [
+    -2.346396
+  ]
+  endingAngle [
+    2.128277
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 746.051329 0.01 -27.606484
+  name "road(5)"
+  id "-105371_1"
+  startJunction "-104543"
+  endJunction "-102567"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    24.576625 0 0.259695
+    26.808455 0 1.033252
+    27.504283 0 3.290526
+    27.339348 0 10.144246
+  ]
+  startingAngle [
+    -1.56023
+  ]
+  endingAngle [
+    0.02406
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 769.294445 0.01 -13.465567
+  name "road(6)"
+  id "-105369_1"
+  startJunction "-102567"
+  endJunction "-102569"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -16.98624 0 -0.009218
+  ]
+  startingAngle [
+    1.571339
+  ]
+  endingAngle [
+    1.571339
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 745.328998 0.01 -10.807814
+  name "road(7)"
+  id "-105369_2"
+  startJunction "-102569"
+  endJunction "-102573"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -5.703705 0 5.110083
+    -5.99015 0 26.308365
+  ]
+  startingAngle [
+    0.840238
+  ]
+  endingAngle [
+    0.013512
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 743.284602 0.01 19.540113
+  name "road(8)"
+  id "-105369_3"
+  startJunction "-102573"
+  endJunction "-102567"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    26.880744 0 0.268331
+    29.133543 0 -0.459205
+    29.892238 0 -2.701702
+    29.994318 0 -29.003539
+  ]
+  startingAngle [
+    -1.560814
+  ]
+  endingAngle [
+    -3.137712
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 735.285695 0.01 19.415671
+  name "road(9)"
+  id "-105370_1"
+  startJunction "-102573"
+  endJunction "-102577"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -8.005594 0 -0.169186
+  ]
+  startingAngle [
+    1.591927
+  ]
+  endingAngle [
+    1.591927
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 750.779123 0.01 32.330195
+  name "road(10)"
+  id "-105371_3"
+  startJunction "-104575"
+  endJunction "-102577"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -3.410631 0 -3.400837
+    -24.314129 0 -3.883694
+    -26.578567 0 -4.685502
+    -27.373478 0 -6.95237
+    -27.417931 0 -9.169029
+  ]
+  startingAngle [
+    2.354757
+  ]
+  endingAngle [
+    3.121542
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 723.275221 0.01 15.161974
+  name "road(11)"
+  id "-105370_2"
+  startJunction "-102577"
+  endJunction "-104586"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -0.006796 0 -4.709103
+  ]
+  startingAngle [
+    3.140149
+  ]
+  endingAngle [
+    3.140149
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 743.658449 0.01 -46.758712
+  name "road(12)"
+  id "-105373_2"
+  startJunction "-105211"
+  endJunction "-104637"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    0.002477 0 4.404858
+    0.753727 0 6.659513
+    3.004106 0 7.423481
+    26.650972 0 7.570279
+    28.881121 0 6.834508
+    29.571685 0 4.589949
+    29.455964 0 0.209761
+  ]
+  startingAngle [
+    -0.000562
+  ]
+  endingAngle [
+    3.11518
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 800.006725 0.01 -38.7363
+  name "road(13)"
+  id "-105373_1"
+  startJunction "-104628"
+  endJunction "-104637"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -10.762238 0 -11.476618
+    -22.9988 0 -11.728829
+  ]
+  startingAngle [
+    2.388306
+  ]
+  endingAngle [
+    1.591405
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 773.072458 0.01 -54.547049
+  name "road(14)"
+  id "-105373_3"
+  startJunction "-104637"
+  endJunction "-105211"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    0.058812 0 -3.693496
+    -0.65535 0 -5.948128
+    -2.893361 0 -6.712784
+    -26.775059 0 -6.869353
+    -28.999826 0 -6.134526
+    -29.674258 0 -3.890712
+    -29.550573 0 -0.209407
+  ]
+  startingAngle [
+    -3.125671
+  ]
+  endingAngle [
+    -0.033585
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 777.29444 0.01 -13.457536
+  name "road(15)"
+  id "-105371_2"
+  startJunction "-102567"
+  endJunction "-104562"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    11.035354 0 0.016167
+  ]
+  startingAngle [
+    -1.569331
+  ]
+  endingAngle [
+    -1.569331
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 793.148596 0.01 -6.779617
+  name "road(16)"
+  id "-105371_4"
+  startJunction "-104562"
+  endJunction "-104575"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -7.424634 0 22.641273
+    -7.984396 0 44.789299
+    -8.791236 0 47.035168
+    -11.060162 0 47.774689
+    -33.55081 0 47.672332
+    -36.64937 0 44.702147
+  ]
+  startingAngle [
+    0.316875
+  ]
+  endingAngle [
+    2.335044
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 723.24822 0.01 -3.547114
+  name "road(17)"
+  id "-105370_3"
+  startJunction "-104586"
+  endJunction "-104543"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    -0.013208 0 -9.153232
+    -0.160743 0 -21.316232
+    0.561918 0 -23.557505
+    2.802675 0 -24.281763
+    11.803761 0 -24.178998
+  ]
+  startingAngle [
+    3.14015
+  ]
+  endingAngle [
+    -1.55938
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Road {
+  translation 742.873665 0.01 -21.815915
+  name "road(18)"
+  id "-105370_4"
+  startJunction "-104543"
+  endJunction "-102569"
+  speedLimit 27.777778
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+  ]
+  rightBorder FALSE
+  leftBorder FALSE
+  wayPoints [
+    0 0 0
+    3.250572 0 4.987798
+  ]
+  startingAngle [
+    -0.577573
+  ]
+  endingAngle [
+    -0.577573
+  ]
+  startLine [
+    "textures/road_line_dashed.png"
+    "textures/road_line_triangle.png"
+  ]
+  endLine [
+    "textures/road_line_triangle.png"
+    "textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+}
+Solid {
+  translation 753.3900000000002 0 35.47999999999999
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+}
+Solid {
+  translation 760.3700000000003 0 40.889999999999986
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(32)"
+}
+Solid {
+  translation 784.1899999999998 0 39.93999999999999
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(1)"
+}
+Solid {
+  translation 743.34 0 44.68999999999999
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(2)"
+}
+Solid {
+  translation 712.2499999999999 0 43.559999999999974
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(3)"
+}
+Solid {
+  translation 724.4399999999997 0 27.41999999999998
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(4)"
+}
+Solid {
+  translation 746.68 0 28.909999999999982
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.9 0.30000000000000004 0.5
+          transparency 0.3
+        }
+      }
+      geometry Cylinder {
+        height 0.020999999999999998
+        radius 3
+      }
+    }
+  ]
+  name "solid(5)"
+}
