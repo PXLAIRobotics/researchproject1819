@@ -16,7 +16,6 @@ A folder 'lights' was added with a sample image of a red and a green light.
 	  > This controller ships with WeBots and is written in C++, but we won't be editing this
 6. Use rospy to create a node. Try some services that are available on the WeBots ROS controller on the robot
     > ROS will be covered extensively in the AI & Robotics course
-7. Later on in the project, we will host some workshops to do more complex actions in WeBots. (create own world, own robots, ...)
 
 ## Useful Links ##
 ROS: [http://www.ros.org/](http://www.ros.org/)  
