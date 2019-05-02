@@ -24,9 +24,9 @@ A folder 'lights' was added with a sample image of a red and a green light.
 
 `
 from sensor_msgs.msg import NavSatFix
+`
 
-...
-
+`
 gpsSubscriber = rospy.Subscriber(ctrl + '/gps/values', NavSatFix, gpsCallback)
 `
 
