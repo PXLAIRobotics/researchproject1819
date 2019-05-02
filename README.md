@@ -16,6 +16,19 @@ A folder 'lights' was added with a sample image of a red and a green light.
 	  > This controller ships with WeBots and is written in C++, but we won't be editing this
 6. Use rospy to create a node. Try some services that are available on the WeBots ROS controller on the robot
     > ROS will be covered extensively in the AI & Robotics course
+    
+## Adding and using a GPS to the robot ##
+1. In Webots, open up the robot, select the 'extensionSlot' folder and click the '+' icon in the top left corner
+2. Search for 'GPS' and click add
+3. In code use the following code:
+
+`
+from sensor_msgs.msg import NavSatFix
+...
+gpsSubscriber = rospy.Subscriber(ctrl + '/gps/values', NavSatFix, gpsCallback)
+`
+
+4. Coordinates will be in latitude-longitude values, so use the original metadata values to calculate the distance to a node
 
 ## Useful Links ##
 ROS: [http://www.ros.org/](http://www.ros.org/)  
